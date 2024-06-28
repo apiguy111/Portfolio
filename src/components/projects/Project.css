@@ -1,0 +1,28 @@
+.project {
+  font-size: 32px;
+  color: white;
+  margin-left: 23px;
+  margin-bottom: 60px;
+  letter-spacing: 0.5px;
+  margin-top: 100px;
+}
+
+.project-container {
+  margin-left: 23px;
+}
+
+@media (max-width: 400px) {
+  .project-container {
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+
+  .project {
+    font-size: 32px;
+    color: white;
+    margin-left: 23px;
+    margin-bottom: 60px;
+    letter-spacing: 0.5px;
+    /* margin-top: 100px; */
+  }
+}

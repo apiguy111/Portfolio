@@ -1,0 +1,538 @@
+.mm-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: auto;
+}
+
+.mm {
+  display: flex;
+}
+
+.mm-heading {
+  font-size: 92px;
+  margin-left: 100px;
+  margin-top: 100px;
+  color: black;
+}
+
+.mm-second-p {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.mm-role {
+  height: 60px;
+  width: fit-content;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.mm-r-p-1 {
+  color: black;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.mm-r-p-2 {
+  color: rgb(37, 35, 35);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.mm-overview {
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+.mm-ov {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.mm-ov-1 {
+  color: rgb(0, 0, 0);
+  font-size: 16.5px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  max-width: 60%;
+  margin-bottom: 40px;
+}
+
+.mm-tech {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.mm-b1 {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.mm-b1-1 {
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #683647;
+  letter-spacing: 2px;
+  width: fit-content;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.mm-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 20px rgb(34, 31, 31));
+}
+
+.mm-image-container {
+  height: 500px;
+  width: fit-content;
+  top: 3%;
+  position: absolute;
+  right: 4%;
+}
+
+.mm2-container {
+  color: #fff;
+  height: 100vh;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.mm2-av-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mm2-img-container {
+  height: 513px;
+  width: fit-content;
+  margin-right: 80px;
+  margin-top: 20%;
+}
+
+.mm2-typewriter {
+  max-width: 36%;
+  margin-left: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.mm-c {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.mm2-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mm2-image-container {
+  height: 400px;
+  width: 100%;
+}
+
+.mm3-container {
+  color: #fff;
+  height: 100vh;
+  background-color: rgb(32, 30, 30);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.mm3-av-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mm3-img-container {
+  height: 100vh;
+  width: fit-content;
+  margin-right: 180px;
+}
+
+.mm3-typewriter {
+  max-width: 36%;
+  margin-left: 140px;
+  align-items: center;
+  display: flex;
+}
+
+.mm4-c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.mm4-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mm4-image-container {
+  height: 450px;
+  width: fit-content;
+}
+
+.mm5-c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.mm5-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mm5-image-container {
+  height: 600px;
+  width: fit-content;
+}
+
+.mm-button-c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.mm-xx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mm-button-c button {
+  height: 70px;
+  width: 180px;
+  font-size: 16px;
+  background-color: #446c9a;
+  color: white;
+  border: 1px #fff solid;
+  border-radius: 20px;
+  flex-direction: row;
+}
+
+.mm-button-c button:hover {
+  cursor: pointer;
+}
+
+.mm-iconeast {
+  height: 20px;
+  width: fit-content;
+  position: absolute;
+  color: #fff;
+  right: 10%;
+}
+
+.mm-av6 {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 120px;
+  letter-spacing: 2px;
+  margin-top: 120px;
+}
+
+.mm-button-tainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.mm-xxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mm-button-tainer button {
+  height: 70px;
+  width: 180px;
+  font-size: 16px;
+  background-color: #ba704f;
+  color: white;
+  border: 1px #fff solid;
+  border-radius: 20px;
+
+  flex-direction: row;
+}
+
+.mm-button-tainer button:hover {
+  cursor: pointer;
+}
+
+.mm-iconeastt {
+  height: 20px;
+  width: fit-content;
+  position: absolute;
+  color: #fff;
+  right: 10%;
+}
+
+@media (max-width: 1460px) {
+  .mm-image-container {
+    height: 300px;
+    top: 3%;
+    right: 8%;
+  }
+}
+
+@media (max-width: 1360px) {
+  .mm2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .mm2-typewriter {
+    max-width: 85%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .mm2-typewriter h1 {
+    font-size: 30px;
+  }
+  .mm2-img-container {
+    height: 413px;
+    width: fit-content;
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
+  .mm2-image-container {
+    height: 190px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .mm-image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1260px) {
+  .mm2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .mm2-typewriter {
+    max-width: 85%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .mm2-typewriter h1 {
+    font-size: 30px;
+  }
+  .mm2-img-container {
+    height: 413px;
+    width: fit-content;
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
+  .mm2-image-container {
+    height: 190px;
+    width: 100%;
+  }
+  .mm5-image-container {
+    height: 370px;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 660px) {
+  .mm-heading {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .mm-role {
+    margin-left: 40px;
+  }
+  .mm-r-p-1 {
+    font-size: 11px;
+  }
+  .mm-r-p-2 {
+    font-size: 13px;
+  }
+  .mm-overview {
+    margin-left: 40px;
+    width: 100%;
+  }
+  .mm-ov-1 {
+    max-width: 85%;
+  }
+  .mm-tech {
+    margin-left: 40px;
+  }
+  .mm-b1-1 {
+    font-size: 12px;
+    padding: 18px;
+    letter-spacing: 1px;
+  }
+  .mm2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mm2-typewriter {
+    max-width: 85%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .mm2-typewriter h1 {
+    font-size: 24px;
+  }
+  .mm2-img-container {
+    height: 272px;
+    width: fit-content;
+    margin-left: 40px;
+  }
+
+  .mm2-image-container {
+    height: 150px;
+  }
+  .mm3-container {
+    height: auto;
+  }
+
+  .mm3-img-container {
+    display: none;
+  }
+
+  .mm3-typewriter {
+    max-width: 86%;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mm3-typewriter h1 {
+    font-size: 28px;
+  }
+  .mm5-image-container {
+    height: 270px;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 400px) {
+  .mm-heading {
+    margin-left: 20px;
+  }
+
+  .mm-role {
+    margin-left: 20px;
+  }
+
+  .mm-r-p-1 {
+    font-size: 11px;
+  }
+  .mm-r-p-2 {
+    font-size: 13px;
+  }
+  .mm-overview {
+    margin-left: 20px;
+    width: 100%;
+    margin-top: -20px;
+  }
+  .mm-ov-1 {
+    max-width: 85%;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .mm-tech {
+    margin-left: 20px;
+  }
+  .mm-b1-1 {
+    font-size: 12px;
+    padding: 18px;
+    letter-spacing: 1px;
+  }
+
+  .mm2-typewriter {
+    max-width: 85%;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .mm2-typewriter h1 {
+    font-size: 24px;
+  }
+  .mm2-img-container {
+    height: 162px;
+    width: fit-content;
+    margin-left: 20px;
+  }
+
+  .mm2-image-container {
+    height: 150px;
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+  .mm3-container {
+    height: auto;
+  }
+
+  .mm3-img-container {
+    height: 180px;
+    width: fit-content;
+    margin-right: 80px;
+  }
+
+  .mm3-typewriter {
+    max-width: 86%;
+    margin-left: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .mm3-typewriter h1 {
+    font-size: 28px;
+  }
+  .mm5-image-container {
+    height: 170px;
+    width: fit-content;
+  }
+
+  .mm-av6 {
+    font-size: 24px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+}

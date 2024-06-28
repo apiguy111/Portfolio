@@ -1,0 +1,170 @@
+.front-end-one {
+  font-size: 64px;
+  color: white;
+  margin-left: 45px;
+}
+
+.front-end-two {
+  font-size: 64px;
+  color: white;
+  margin-left: 45px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  width: 10em;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slidee 5s infinite;
+  /* font-weight: bold; */
+  margin-left: 20px;
+}
+
+@keyframes slidee {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+.title-image {
+  height: 387px;
+  width: 661px;
+  margin-left: 45px;
+}
+
+@media (max-width: 768px) {
+  .title-image {
+    height: 387px;
+    width: 435px;
+    margin-left: 23px; /* You can adjust the margin value as needed */
+  }
+  .front-end-two {
+    font-size: 48px;
+  }
+  .front-end-one {
+    font-size: 48px;
+  }
+}
+
+.image-title-container {
+  display: flex; /* Set the container to flex */
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 30px; /* Align items vertically in the center */
+}
+
+.text-one {
+  font-size: 64px;
+  color: white;
+  margin-right: 23px;
+}
+
+.about-container {
+  max-width: 96%;
+  margin-bottom: 55px;
+  margin-top: 90px;
+  margin-left: 23px;
+}
+
+.about {
+  font-size: 32px;
+  color: white;
+  margin-left: 23px;
+  letter-spacing: 0.5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-me {
+  font-size: 16px;
+  color: white;
+  margin-left: 23px;
+  margin-top: -15px;
+  letter-spacing: 2px;
+  line-height: 28px;
+}
+
+.name {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.name2 {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 1260px) {
+  .name {
+    display: none; /* Hide the middle elements on small screens */
+  }
+}
+
+@media (max-width: 1260px) {
+  .front-end-one {
+    font-size: 34px;
+    color: white;
+    margin-left: 20px;
+  }
+
+  .front-end-two {
+    font-size: 34px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+  }
+
+  .scroller > span {
+    margin-left: 12px;
+  }
+
+  .title-image {
+    height: 327px;
+    width: 294px;
+    object-fit: contain;
+    margin-top: -50px;
+  }
+
+  .about-container {
+    max-width: 86.5%;
+    margin-bottom: 55px;
+    margin-top: -70px;
+    margin-left: 23px;
+  }
+
+  .about {
+    font-size: 28px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  .about-me {
+    font-size: 14px;
+    color: white;
+    margin-left: 0px;
+    margin-top: -30px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+  }
+}

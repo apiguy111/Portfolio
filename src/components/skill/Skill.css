@@ -1,0 +1,333 @@
+.skill-container {
+  margin-left: 45px;
+  overflow: hidden;
+}
+
+.skill {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 60px;
+  letter-spacing: 0.5px;
+}
+
+.row {
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(6, 240px);
+}
+
+@media screen and (max-width: 1200px) {
+  .row {
+    grid-template-columns: repeat(3, 1fr); /* Change to 3 containers per row */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    grid-template-columns: 1fr; /* Display 1 container per row */
+  }
+}
+
+.row-container {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+  margin-right: 70px;
+  background-color: #256d85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row-container-ux {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  border-radius: 180px;
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bounce-in-fwd {
+  -webkit-animation: bounce-in-fwd 1.1s both;
+  animation: bounce-in-fwd 1.1s both;
+}
+
+@-webkit-keyframes bounce-in-fwd {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  89% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes bounce-in-fwd {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: scale(0.84);
+    transform: scale(0.84);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  89% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+.javascript {
+  background-color: #f2be22;
+}
+
+.java {
+  background-color: #17594a;
+}
+
+.fb {
+  background-color: #b31312;
+}
+
+.rn {
+  background-color: #41644a;
+}
+
+.node {
+  background-color: #9ba4b5;
+}
+
+.agile {
+  background-color: #443c68;
+}
+
+.ut {
+  background-color: #f2921d;
+}
+
+.css {
+  background-color: #863a6f;
+}
+
+.react {
+  height: 80px;
+  width: 80px;
+  border-radius: 180px;
+}
+
+.agile-image {
+  height: 87px;
+  width: 87px;
+}
+
+.ut-image {
+  height: 106px;
+  width: 107px;
+  margin-left: 20px;
+}
+
+.js {
+  height: 73px;
+  width: 86;
+}
+
+.gql {
+  background-color: #164b60;
+}
+
+.socket {
+  background-color: #ececec;
+}
+
+.uxx {
+  height: 204px;
+  width: 204px;
+}
+
+.text {
+  font-size: 22px;
+  display: flex;
+  color: white;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rr {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-two {
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(6, 240px);
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .row-two {
+    grid-template-columns: repeat(3, 1fr); /* Change to 3 containers per row */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row-two {
+    grid-template-columns: repeat(2, 220px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .row-two {
+    grid-template-columns: 1fr; /* Display 1 container per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-container {
+    margin-left: 25px;
+    margin-bottom: 70px;
+  }
+
+  .skill {
+    margin-bottom: 40px;
+  }
+
+  .row {
+    grid-template-columns: repeat(2, 190px);
+  }
+
+  .row-two {
+    grid-template-columns: repeat(2, 190px);
+  }
+
+  .row-container {
+    height: 100px;
+    width: 100px;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+  }
+
+  .row-container-ux {
+    height: 100px;
+    width: 100px;
+  }
+
+  .uxx {
+    height: 129px;
+    width: 129px;
+  }
+
+  .text {
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+  }
+
+  .rr {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+  }
+}

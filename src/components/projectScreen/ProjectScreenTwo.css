@@ -1,0 +1,94 @@
+.ps-2 {
+  color: aliceblue;
+  background-color: #1e1d1d;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.f-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.f-image-container {
+  height: 100vh;
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+
+.h-text {
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-top: 17%;
+  margin-left: 2%;
+}
+
+.t2 {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+  max-width: 70%;
+  margin-top: 20px;
+  line-height: 23px;
+  text-indent: 18%;
+}
+
+.t1 {
+  color: transparent;
+  background-image: linear-gradient(to right, red, yellow);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: slide 2s linear infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .t1 {
+    font-size: 40px;
+  }
+
+  .t2 {
+    display: none;
+  }
+
+  .f-image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .t1 {
+    font-size: 25px;
+    margin-left: -12px;
+    margin-bottom: 70px;
+  }
+
+  .ps-2 {
+    height: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .t1 {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
+
+  .ps-2 {
+    height: auto;
+  }
+}

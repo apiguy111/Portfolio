@@ -1,0 +1,404 @@
+.conv-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: auto;
+}
+
+.con {
+  display: flex;
+}
+
+.con-heading {
+  font-size: 92px;
+  margin-left: 100px;
+  margin-top: 100px;
+  color: black;
+}
+
+.con-second-p {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.con-role {
+  height: 60px;
+  width: fit-content;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.con-r-p-1 {
+  color: black;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.con-r-p-2 {
+  color: rgb(37, 35, 35);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.con-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 20px rgb(34, 31, 31));
+}
+
+.con-image-container {
+  height: 550px;
+  width: fit-content;
+  top: 2%;
+  position: absolute;
+  right: 4%;
+}
+
+.con-overview {
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+.con-ov {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.con-ov-1 {
+  color: rgb(0, 0, 0);
+  font-size: 16.5px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  max-width: 60%;
+  margin-bottom: 40px;
+}
+
+.con-tech {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.con-b1 {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.con-b1-1 {
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #683647;
+  letter-spacing: 2px;
+  width: fit-content;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.d-container {
+  color: #fff;
+  height: 100vh;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.d-av-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.d-img-container {
+  height: 513px;
+  width: fit-content;
+  margin-right: 120px;
+  margin-top: 20%;
+}
+
+.d-typewriter {
+  max-width: 36%;
+  margin-left: 140px;
+  align-items: center;
+  display: flex;
+}
+
+.con2-c {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.con2-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.con2-image-container {
+  height: 550px;
+  width: fit-content;
+}
+
+.con-button-c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.con-xx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.con-button-c button {
+  height: 70px;
+  width: 180px;
+  font-size: 16px;
+  background-color: #446c9a;
+  color: white;
+  border: 1px #fff solid;
+  border-radius: 20px;
+  /* position: relative; */
+  flex-direction: row;
+}
+
+.con-button-c button:hover {
+  cursor: pointer;
+}
+
+.con-iconeast {
+  height: 20px;
+  width: fit-content;
+  position: absolute;
+  color: #fff;
+  /* margin-left: 7%; */
+  right: 10%;
+}
+
+.con-av6 {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 120px;
+  letter-spacing: 2px;
+  margin-top: 120px;
+}
+
+.button-tainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.xxx {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.button-tainer button {
+  height: 70px;
+  width: 180px;
+  font-size: 16px;
+  background-color: #ba704f;
+  color: white;
+  border: 1px #fff solid;
+  border-radius: 20px;
+
+  flex-direction: row;
+}
+
+.button-tainer button:hover {
+  cursor: pointer;
+}
+
+.iconeastt {
+  height: 20px;
+  width: fit-content;
+  position: absolute;
+  color: #fff;
+  right: 10%;
+}
+
+@media (max-width: 1260px) {
+  .con-image-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1160px) {
+  .d-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .d-typewriter {
+    max-width: 85%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .d-typewriter h1 {
+    font-size: 30px;
+  }
+  .d-img-container {
+    height: 413px;
+    width: fit-content;
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
+  .con2-image-container {
+    height: 270px;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 660px) {
+  .con-heading {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .con-role {
+    margin-left: 40px;
+  }
+  .con-r-p-1 {
+    font-size: 11px;
+  }
+  .con-r-p-2 {
+    font-size: 13px;
+  }
+  .con-overview {
+    margin-left: 40px;
+    width: 100%;
+  }
+  .con-ov-1 {
+    max-width: 85%;
+  }
+  .con-tech {
+    margin-left: 40px;
+  }
+  .con-b1-1 {
+    font-size: 12px;
+    padding: 18px;
+    letter-spacing: 1px;
+  }
+  .d-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .d-typewriter {
+    max-width: 85%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .d-typewriter h1 {
+    font-size: 24px;
+  }
+  .d-img-container {
+    height: 313px;
+    width: fit-content;
+    margin-left: 40px;
+  }
+  .con2-image-container {
+    height: 270px;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 660px) {
+  .con-heading {
+    margin-left: 20px;
+  }
+
+  .con-role {
+    margin-left: 20px;
+    margin-right: 6px;
+  }
+  .con-r-p-1 {
+    font-size: 10px;
+  }
+  .con-r-p-2 {
+    font-size: 12px;
+  }
+  .con-overview {
+    margin-left: 20px;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .con-ov-1 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+  .con-tech {
+    margin-left: 20px;
+  }
+  .con-b1-1 {
+    font-size: 10px;
+    padding: 14px;
+    letter-spacing: 1px;
+  }
+
+  .d-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .d-typewriter {
+    max-width: 85%;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .d-typewriter h1 {
+    font-size: 24px;
+  }
+  .d-img-container {
+    height: 193px;
+    width: fit-content;
+    margin-left: 40px;
+  }
+  .con2-image-container {
+    height: 180px;
+    width: fit-content;
+    margin-left: -10px;
+  }
+
+  .con-av6 {
+    margin-right: 25px;
+    font-size: 24px;
+    margin-top: -20px;
+  }
+
+  .xxx {
+    margin-top: -50px;
+    margin-right: 15px;
+  }
+
+  .con-xx {
+    margin-right: 15px;
+  }
+}

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HomeScreen from "./Screens/HomeScreen";
+import AnimeVerseScreen from "./Screens/AnimeVerseScreen";
+import ConversaScreen from "./Screens/ConversaScreen";
+import SlackCloneScreen from "./Screens/SlackCloneScreen";
+import VacationFinderScreen from "./Screens/VacationFinderScreen";
+import MedicareScreen from "./Screens/MedicareScreen";
+import MovieManiaScreen from "./Screens/MovieManiaScreen";
+import ProjectMainScreen from "./Screens/ProjectMainScreen";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <ScrollToTop />
+        <Routes>
+          <>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/fam" element={<ProjectMainScreen />} />
+            <Route path="/Anime" element={<AnimeVerseScreen />} />
+            <Route path="/Conversa" element={<ConversaScreen />} />
+            <Route path="/Slack" element={<SlackCloneScreen />} />
+            <Route path="/Vacation" element={<VacationFinderScreen />} />
+            <Route path="/Medicare" element={<MedicareScreen />} />
+            <Route path="/Movie" element={<MovieManiaScreen />} />
+          </>
+        </Routes>
+      </Router>
     </div>
   );
 }
